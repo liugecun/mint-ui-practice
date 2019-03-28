@@ -92,7 +92,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .loading-background,
 .mint-loadmore-top span {
   -webkit-transition: 0.2s linear;

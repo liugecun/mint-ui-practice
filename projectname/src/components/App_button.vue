@@ -33,7 +33,7 @@
 
     <div class="page-button-group">
       <mt-button>
-        <img src="../static/100x100.png" height="20" width="20" slot="icon">
+        <img src="../../static/100x100.png" height="20" width="20" slot="icon">
         带自定义图标
       </mt-button>
     </div>
@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped lang="css">
     .page-button {
       padding: 0 15px 15px;
     }

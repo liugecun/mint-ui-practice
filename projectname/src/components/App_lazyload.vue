@@ -61,25 +61,4 @@ ul,li{
   list-style: none;
 }
 *{margin: 0;padding: 0;}
-/* @component-namespace page {
-    @component lazyload {
-      @descendent list {
-        text-align: center;
-      }
-      @descendent listitem {
-        width: 300px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        background-color: #ddd;
-      }
-      @descendent image {
-        display: block;
-        width: 100%;
-      }
-      @descendent image[lazy=loading] {
-        width: 40px;
-        height: 300px;
-        margin: auto;
-      }
-    } */
 </style>

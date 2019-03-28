@@ -7,7 +7,7 @@
     <mt-cell title="标题文字" icon="more" value="带 icon"></mt-cell>
     <mt-cell title="标题文字" icon="more">
       <span>icon 是图片</span>
-      <img slot="icon" src="../static/100x100.png" width="24" height="24">
+      <img slot="icon" src="../../static/100x100.png" width="24" height="24">
     </mt-cell>
     <mt-cell title="标题文字" is-link value="带链接"></mt-cell>
     <mt-cell title="标题文字" is-link>
@@ -39,7 +39,7 @@
  }
 </script>
 
-<style>
+<style scoped>
 
  
 </style>

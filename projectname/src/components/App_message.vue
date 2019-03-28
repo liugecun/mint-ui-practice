@@ -44,9 +44,6 @@
       //   message: '确定执行此操作?',
       //   showCancelButton: true
       // });
-      this.$MessageBox.alert('操作成功').then(action => {
-        
-      })
     }
   };
 </script>

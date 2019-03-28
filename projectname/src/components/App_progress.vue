@@ -61,7 +61,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .mint-cell-value {
     flex: 2.5;
     position: relative;

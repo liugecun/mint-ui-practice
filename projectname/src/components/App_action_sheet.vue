@@ -53,18 +53,6 @@
   };
 </script>
 
-<style scoped lang="postcss">
-  @component-namespace page {
-    @component actionsheet {
-      @descendent wrapper {
-        padding: 0 20px;
-        position: absolute 50% * * *;
-        width: 100%;
-        transform: translateY(-50%);
-        button:first-child {
-          margin-bottom: 20px;
-        }
-      }
-    }
-  }
+<style scoped lang="css">
+  
 </style>

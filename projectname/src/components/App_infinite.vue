@@ -47,37 +47,5 @@
 
 <style scoped lang="postcss">
   *{margin:0;padding: 0;}
-  @component-namespace page {
-    @component infinite {
-      @descendent desc {
-        text-align: center;
-        color: #F00;
-        padding-bottom: 5px;
-        border-bottom: solid 1px #eee;
-      }
-      @descendent listitem {
-        height: 50px;
-        line-height: 50px;
-        border-bottom: solid 1px #eee;
-        text-align: center;
-        &:first-child {
-          border-top: solid 1px #eee;
-        }
-      }
-      @descendent wrapper {
-        margin-top: -1px;
-        overflow: scroll;
-      }
-      @descendent loading {
-        text-align: center;
-        height: 50px;
-        line-height: 50px;
-        div {
-          display: inline-block;
-          vertical-align: middle;
-          margin-right: 5px;
-        }
-      }
-    }
-  }
+  
 </style>

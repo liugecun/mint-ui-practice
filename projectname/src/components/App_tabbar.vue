@@ -5,7 +5,6 @@
       <div>
         <mt-cell class="page-part" title="当前选中" :value="selected" />
       </div>
-
       <mt-tab-container class="page-tabbar-container" v-model="selected">
         <mt-tab-container-item id="外卖">
           <mt-cell v-for="(n,i) in 10" :key="i" :title="'餐厅 ' + n" />
@@ -29,19 +28,19 @@
 
     <mt-tabbar v-model="selected" fixed>
       <mt-tab-item id="外卖">
-        <img slot="icon" src="../static/100x100.png">
+        <img slot="icon" src="../../static/100x100.png">
         外卖
       </mt-tab-item>
       <mt-tab-item id="订单">
-        <img slot="icon" src="../static/100x100.png">
+        <img slot="icon" src="../../static/100x100.png">
         订单
       </mt-tab-item>
       <mt-tab-item id="发现">
-        <img slot="icon" src="../static/100x100.png">
+        <img slot="icon" src="../../static/100x100.png">
         发现
       </mt-tab-item>
       <mt-tab-item id="我的">
-        <img slot="icon" src="../static/100x100.png">
+        <img slot="icon" src="../../static/100x100.png">
         我的
       </mt-tab-item>
     </mt-tabbar>
@@ -59,7 +58,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
   .page-tabbar {
     overflow: hidden;
     height: 100vh;

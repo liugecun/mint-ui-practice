@@ -89,7 +89,7 @@
   };
 </script>
 
-<style>
+<style scoped>
 .mt-range {
   width: 100%;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="toast">
     111
     <!-- Toast('提示信息'); -->
     {{data1}}
@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

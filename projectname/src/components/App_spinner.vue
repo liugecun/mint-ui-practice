@@ -31,12 +31,5 @@ export default {
 </script>
 
 <style scoped lang="postcss">
-  @component-namespace page {
-    @component spinner {
-      .mint-cell {
-        min-height: 50px;
-        height: 100000px;;
-      }
-    }
-  }
+  
 </style>

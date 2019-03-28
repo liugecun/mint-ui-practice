@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped lang="css">
   .page-radio .page-part {
     margin-top: 40px;
   }

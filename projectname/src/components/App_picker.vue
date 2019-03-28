@@ -96,7 +96,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   .page-picker {
     padding: 0 10px 20px;
   }

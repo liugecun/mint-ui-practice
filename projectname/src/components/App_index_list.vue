@@ -35,7 +35,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .page-indexlist-desc {
     text-align: center;
     color: #666;
